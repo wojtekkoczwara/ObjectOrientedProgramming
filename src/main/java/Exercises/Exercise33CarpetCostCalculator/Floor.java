@@ -1,4 +1,4 @@
-package Exercises.Exarcise33CarpetCostCalculator;
+package Exercises.Exercise33CarpetCostCalculator;
 
 public class Floor {
     private double width;

@@ -1,6 +1,6 @@
 package Exercises.Exercise31WallArea;
 
-import Exercises.Exarcise33CarpetCostCalculator.Floor;
+import Exercises.Exercise33CarpetCostCalculator.Floor;
 
 public class Calculator {
     private Floor floor;

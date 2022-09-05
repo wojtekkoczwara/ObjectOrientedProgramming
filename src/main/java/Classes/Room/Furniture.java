@@ -1,2 +1,4 @@
-package Classes.Room;public class Furniture {
+package Classes.Room;
+
+public class Furniture {
 }
