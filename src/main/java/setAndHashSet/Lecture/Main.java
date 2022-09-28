@@ -1,4 +1,4 @@
-package setAndHashSet;
+package setAndHashSet.Lecture;
 
 import java.util.HashMap;
 import java.util.HashSet;
