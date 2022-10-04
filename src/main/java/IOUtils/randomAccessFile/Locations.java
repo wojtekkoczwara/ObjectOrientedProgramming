@@ -1,4 +1,4 @@
-package IOUtils.serializable;
+package IOUtils.randomAccessFile;
 
 import java.io.*;
 import java.util.Collection;
