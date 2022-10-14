@@ -7,10 +7,10 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class HttpUrlConnection {
+public class HttpUrlConnectionWrong {
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://example.org");
+            URL url = new URL("http://example.org/example");
             HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
             httpConnection.setRequestMethod("GET");
             httpConnection.setRequestProperty("User-Agent", "Chrome");
@@ -20,6 +20,7 @@ public class HttpUrlConnection {
             System.out.println("Response code: " + responseCode);
             if(responseCode != 200){
                 System.out.println("Error reading web page");
+                System.out.println(httpConnection.getResponseMessage());
                 return;
             }
 
